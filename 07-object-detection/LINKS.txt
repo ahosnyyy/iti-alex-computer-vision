@@ -1,0 +1,12 @@
+https://github.com/ultralytics/yolov5
+https://pytorch.org/hub/ultralytics_yolov5/#:~:text=YOLOv5%20%F0%9F%9A%80%20is%20a%20family,to%20ONNX%2C%20CoreML%20and%20TFLite.
+https://docs.ultralytics.com/yolov5/train_custom_data/
+
+https://github.com/WongKinYiu/yolov7
+https://blog.paperspace.com/train-yolov7-custom-data/
+
+
+https://github.com/heartexlabs/labelImg
+https://pypi.org/project/labelImg/1.4.0/
+
+https://pypi.org/project/bing-image-downloader/

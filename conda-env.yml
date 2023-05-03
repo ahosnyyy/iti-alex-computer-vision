@@ -1,0 +1,5 @@
+name: cv-env
+
+dependencies:
+  - python==3.9
+  - opencv

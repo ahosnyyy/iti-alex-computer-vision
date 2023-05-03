@@ -1,0 +1,6 @@
+https://discuss.pytorch.org/t/how-to-augment-the-minority-class-only-in-an-unbalanced-dataset/13797
+https://pytorch.org/vision/stable/auto_examples/plot_transforms.html#sphx-glr-auto-examples-plot-transforms-py
+https://pytorch.org/vision/stable/transforms.html#functional-transforms
+
+https://keras.io/api/applications/
+https://www.tensorflow.org/guide/keras/transfer_learning

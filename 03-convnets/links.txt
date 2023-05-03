@@ -1,0 +1,2 @@
+https://cs231n.github.io/convolutional-networks/#layersizepat
+https://madebyollin.github.io/convnet-calculator/
