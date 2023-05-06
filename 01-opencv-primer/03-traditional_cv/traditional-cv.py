@@ -1,11 +1,10 @@
 import cv2
 
 img_bgr = cv2.imread('../resources/images/cat.jpg')
-img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB)
-cv2.imshow('Cat', img_rgb)
+cv2.imshow('Cat', img_bgr)
 cv2.waitKey(0)
 
-gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2GRAY)
 cv2.imshow('Gray', gray)
 cv2.waitKey(0)
 
@@ -28,7 +27,6 @@ cv2.waitKey(0)
 contours, hierarchy = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
 print(len(contours))
 
-cv2.drawContours(img_rgb, contours, -1, (0, 255, 0), 3)
-cv2.imshow('Contours', img_rgb)
+cv2.drawContours(img_bgr, contours, -1, (0, 255, 0), 3)
+cv2.imshow('Contours', img_bgr)
 cv2.waitKey(0)
-
